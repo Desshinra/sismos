@@ -175,6 +175,33 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   body {
-      background-color: rgb(255, 255, 255);
+    background-color: #003253;
+    color: #ffffff;
+  }
+
+  .header {
+    background-color: #003253;
+    color: #ffffff;
+  }
+
+  .header h1,
+  .h-title .title-text a,
+  section a,
+  h2,
+  p.title {
+    color: #ffffff;
+  }
+
+  .h-title .title-text a:hover {
+    color: #ffffff;
+  }
+
+  section {
+    background-color: #005f00;
+  }
+
+  footer {
+    background-color: #ffffff;
+    color: #003253;
   }
 }
