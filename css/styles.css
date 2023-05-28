@@ -161,4 +161,20 @@ footer {
   section {
       width: 100%;
   }
+
+  .col-5 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 780px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5 {
+    width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: rgb(255, 255, 255);
+  }
 }
