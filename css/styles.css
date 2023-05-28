@@ -41,7 +41,7 @@ body {
   margin-left: 30px;
 }
 
-.h-title .title-text a {
+.title-text a {
   color: #005f00;
   text-decoration: none;
 }
@@ -102,7 +102,6 @@ section a {
 
 .col-5 {
   width: 50%;
-  background-color: #ffffff;
 }
 
 .col-3 {
@@ -175,33 +174,47 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #003253;
+    background-color: black;
     color: #ffffff;
   }
 
   .header {
-    background-color: #003253;
+    background-color: rgb(12, 12, 12);;
     color: #ffffff;
   }
 
   .header h1,
-  .h-title .title-text a,
-  section a,
   h2,
   p.title {
     color: #ffffff;
+  }
+  
+  section a, .title-text a {
+    color: #83bd00;
+  }
+
+  .img-1 {
+    display: none;
   }
 
   .h-title .title-text a:hover {
     color: #ffffff;
   }
 
+  section:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  }
+
   section {
-    background-color: #005f00;
+    background-color: rgb(12, 12, 12);
+  }
+
+  .col-5 {
+    background-color: #000000;
   }
 
   footer {
-    background-color: #ffffff;
-    color: #003253;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
   }
 }
