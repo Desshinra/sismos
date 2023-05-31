@@ -49,6 +49,10 @@ body {
   text-decoration: none;
 }
 
+.map_a {
+  margin-left: 10px;
+}
+
 .h-title .title-text a:hover {
   color: #003253;
 }
